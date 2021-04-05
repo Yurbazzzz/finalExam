@@ -1,0 +1,112 @@
+.meetourteam {
+    height: 700px;
+    background-color: #ebebeb;
+
+    &__title {
+        font-size: 36px;
+        color: #665f60;
+        font-weight: bold;
+        font-family: $secondary-font;
+        text-align: center;
+        margin-top: -1px;
+        
+    }
+}
+
+.meetourteam-slider {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    text-align: center;
+}
+
+
+.meetourteam-icon {
+    width: 50px;
+    height: 50px;
+    fill: #665f60;
+    margin-top: 30px;
+}
+
+.slide {
+    width: 33%;
+    height: 530px;
+    margin: 5px;
+ 
+
+    &__photo {
+        width: 80%;
+        border-radius: 50%;
+        border: 10px solid #ebebeb;
+        margin-left: 8%;
+        margin-right: 8%;
+        position: relative;
+    }
+
+    &__body {
+        height: 130px; 
+        background-color: white;
+        margin-top: -100px;
+        padding-top: 100px;
+    }
+
+    &__title {
+        font-size: 24px;
+        color: #9f9acf;
+        font-weight: bold;
+        font-family: $secondary-font;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-size: 24px;
+        color: #665f60;
+        font-weight: 400;
+        font-style: italic;
+        font-family: $primary-font;
+        text-align: center;
+    }
+
+    &__footer {
+        width: 100%;
+        height: 65px;
+        display: flex;
+        background-color: $primary-color;
+    }
+}
+
+
+.slick-next {
+    width: 5%;
+    height: 50px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    margin-top: 20%;
+}
+.slick-prev  {
+    width: 5%;
+    height: 50px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    margin-top: 20%;
+}
+
+.slick-next:focus {
+    outline: none;
+}
+.slick-prev:focus {
+    outline: none;
+}
+
+.left {
+    transform: rotate(-90deg);
+}
+.right {
+    transform: rotate(90deg);
+}

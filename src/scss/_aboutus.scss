@@ -1,0 +1,68 @@
+.conteiner {
+    width: 80%;
+    display: flex;
+    margin: 0px 10% 0px 10%;
+}
+
+.aboutus {
+
+    &__container {
+        width: 80%;
+        display: flex;
+        margin: 120px 10% 120px 10%;
+    }
+
+    &__button {
+        width: 20%;
+        margin-top: 40px;
+        margin-left: 40%;
+        margin-right: 45%;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        background: none;
+        padding: 5px 10px;
+        font-family: $primary-font;
+        border: 1px solid #7d7a7c;
+    }
+
+}
+
+.sidebar {
+    width: 30%;
+    background-image: url(../img/about-us.png);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.sidebar-icon {
+    width: 20%;
+    height: 54px;
+    fill: wheat;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.sidebar-title {
+    font-size: 36px;
+    line-height: 47px;
+    color: wheat;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 70%;
+    font-family: $secondary-font;
+}
+
+.content {
+    width: 70%;
+    padding: 5% 5% 5% 5%;
+}
+
+.content-title {
+    font-size: 20px;
+    color: #665f60;
+    font-weight: 400;
+    font-family: $primary-font;
+}
+

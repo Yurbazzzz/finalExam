@@ -1,0 +1,537 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+.nav__menu {
+  width: 50%;
+}
+.nav__menu-link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  line-height: 60px;
+  font-weight: bold;
+  font-family: "ProximaNova";
+  margin-right: 7%;
+}
+
+.logo {
+  width: 30%;
+  margin-top: 1%;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 30%;
+  background-image: url(../img/heder-Slider.png);
+  background-size: cover;
+}
+.header__title {
+  font-size: 72px;
+  line-height: 60px;
+  color: #fefefb;
+  font-weight: bold;
+  font-family: "ProximaNova";
+}
+.header__subtitle {
+  font-size: 30px;
+  color: #fefdfd;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "PT Sans";
+}
+
+.container {
+  background-color: #9f9acf;
+}
+
+.conteiner {
+  width: 80%;
+  display: flex;
+  margin: 0px 10% 0px 10%;
+}
+
+.aboutus__container {
+  width: 80%;
+  display: flex;
+  margin: 120px 10% 120px 10%;
+}
+.aboutus__button {
+  width: 20%;
+  margin-top: 40px;
+  margin-left: 40%;
+  margin-right: 45%;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  background: none;
+  padding: 5px 10px;
+  font-family: "PT Sans";
+  border: 1px solid #7d7a7c;
+}
+
+.sidebar {
+  width: 30%;
+  background-image: url(../img/about-us.png);
+  overflow: hidden;
+  background-size: cover;
+}
+
+.sidebar-icon {
+  width: 20%;
+  height: 54px;
+  fill: wheat;
+  margin-top: 10%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.sidebar-title {
+  font-size: 36px;
+  line-height: 47px;
+  color: wheat;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 70%;
+  font-family: "ProximaNova";
+}
+
+.content {
+  width: 70%;
+  padding: 5% 5% 5% 5%;
+}
+
+.content-title {
+  font-size: 20px;
+  color: #665f60;
+  font-weight: 400;
+  font-family: "PT Sans";
+}
+
+.ourservices__sidebar {
+  background-image: url(../img/our-services.png);
+  background-size: cover;
+}
+.ourservices__content {
+  display: flex;
+  padding: 0px;
+}
+
+.item {
+  width: 100%;
+  height: 200px;
+  margin: 0px;
+  padding-top: 30px;
+}
+.item__gray {
+  background-color: gray;
+}
+.item__icon {
+  width: 40px;
+  height: 40px;
+}
+.item__title {
+  text-align: center;
+  font-size: 24px;
+  color: #665f60;
+  font-weight: 700;
+  font-family: "PT Sans";
+}
+.item__subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #665f60;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "PT Sans";
+}
+
+.top {
+  width: 100%;
+}
+
+.bottom {
+  width: 100%;
+}
+
+.sidebar-subtitle {
+  font-size: 18px;
+  color: #665f60;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "PT Sans";
+  text-align: center;
+  margin-top: -100px;
+}
+
+.recentworks {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #9f9acf;
+  background-image: url(../img/recent-work-bg.png);
+  background-size: cover;
+}
+.recentworks__icon {
+  width: 40px;
+  height: 60px;
+  fill: white;
+  transform: rotate(-45deg);
+}
+.recentworks__title {
+  text-align: center;
+  color: white;
+  font-family: "ProximaNova";
+  font-size: 36px;
+  margin-top: 36px;
+}
+.recentworks__slider {
+  width: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 66px;
+}
+.recentworks__slide {
+  width: 100%;
+  padding: 4%;
+  overflow: hidden;
+  background-image: url(../img/recent-work-slider.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.recentworks__button {
+  width: 10%;
+  margin: 50px 45% 60px 45%;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-style: italic;
+}
+
+.recent-next {
+  width: 5%;
+  height: 50px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  margin-top: 20%;
+  fill: white;
+}
+
+.recent-prev {
+  width: 5%;
+  height: 50px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  margin-top: 20%;
+  fill: white;
+}
+
+.recent-next:focus {
+  outline: none;
+}
+
+.recent-prev:focus {
+  outline: none;
+}
+
+.meetourteam {
+  height: 700px;
+  background-color: #ebebeb;
+}
+.meetourteam__title {
+  font-size: 36px;
+  color: #665f60;
+  font-weight: bold;
+  font-family: "ProximaNova";
+  text-align: center;
+  margin-top: -1px;
+}
+
+.meetourteam-slider {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.meetourteam-icon {
+  width: 50px;
+  height: 50px;
+  fill: #665f60;
+  margin-top: 30px;
+}
+
+.slide {
+  width: 33%;
+  height: 530px;
+  margin: 5px;
+}
+.slide__photo {
+  width: 80%;
+  border-radius: 50%;
+  border: 10px solid #ebebeb;
+  margin-left: 8%;
+  margin-right: 8%;
+  position: relative;
+}
+.slide__body {
+  height: 130px;
+  background-color: white;
+  margin-top: -100px;
+  padding-top: 100px;
+}
+.slide__title {
+  font-size: 24px;
+  color: #9f9acf;
+  font-weight: bold;
+  font-family: "ProximaNova";
+  text-align: center;
+}
+.slide__subtitle {
+  font-size: 24px;
+  color: #665f60;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "PT Sans";
+  text-align: center;
+}
+.slide__footer {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  background-color: #9f9acf;
+}
+
+.slick-next {
+  width: 5%;
+  height: 50px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  margin-top: 20%;
+}
+
+.slick-prev {
+  width: 5%;
+  height: 50px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  margin-top: 20%;
+}
+
+.slick-next:focus {
+  outline: none;
+}
+
+.slick-prev:focus {
+  outline: none;
+}
+
+.left {
+  transform: rotate(-90deg);
+}
+
+.right {
+  transform: rotate(90deg);
+}
+
+.map {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+.map__container {
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+.map__icon {
+  width: 100%;
+  position: absolute;
+  margin-top: -880px;
+  height: 50px;
+  fill: white;
+}
+.map__title {
+  width: 100%;
+  position: absolute;
+  margin-top: -800px;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "ProximaNova";
+}
+.map__card {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  background-color: whitesmoke;
+  font-size: 18px;
+  color: #665f60;
+  font-weight: 400;
+  font-family: "PT Sans";
+  text-align: center;
+}
+.map__card:hover {
+  margin-left: -79%;
+}
+.map__card--title {
+  width: 70px;
+  height: 40px;
+  padding: 10px;
+  background-color: #9f9acf;
+}
+.map__card--icon {
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+.card-conteiner {
+  position: absolute;
+  margin-top: -800px;
+  margin-left: 95%;
+}
+
+.second-card {
+  width: 58px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.form {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: absolute;
+  display: flex;
+}
+.form__input {
+  width: 90%;
+  margin-right: 10%;
+  height: 56px;
+  opacity: 0.5;
+  border-radius: 4px;
+  background-color: #ebebeb;
+}
+.form__input::placeholder {
+  color: white;
+}
+.form__input:focus {
+  outline: none;
+}
+.form__textarea {
+  position: absolute;
+  width: 100%;
+  margin-top: 100px;
+  border-radius: 4px;
+  opacity: 0.5;
+  height: 200px;
+  border-radius: 4px;
+  background-color: #ebebeb;
+}
+.form__textarea::placeholder {
+  color: white;
+}
+.form__textarea:focus {
+  outline: none;
+}
+.form__button {
+  width: 20%;
+  height: 70px;
+  margin-left: 40%;
+  margin-right: 40%;
+  position: absolute;
+  margin-top: 25%;
+  border-radius: 4px;
+  background-color: #9f9acf;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "ProximaNova";
+}
+
+.second {
+  margin-left: 10%;
+}
+
+.form-section {
+  margin-top: -450px;
+}
+
+.up-btn {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background-color: #9f9acf;
+  opacity: 0.7;
+  margin-left: 85%;
+  margin-right: 5%;
+  margin-top: 25%;
+}
+
+.up-btn-icon {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  fill: white;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #9f9acf;
+  display: flex;
+  position: absolute;
+  margin-top: 450px;
+}
+.footer__title {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin-top: 16%;
+  font-family: "PT Sans";
+}
+
+.social {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+  fill: white;
+}

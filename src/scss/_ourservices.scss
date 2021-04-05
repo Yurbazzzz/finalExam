@@ -1,0 +1,64 @@
+.ourservices {
+
+    &__sidebar {
+        background-image: url(../img/our-services.png);
+        background-size: cover;
+    }
+
+    &__content {
+        display: flex;
+        padding: 0px;
+    }
+}
+
+
+.item {
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    padding-top: 30px;
+
+    &__gray {
+        background-color: gray;
+    }
+
+    &__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 24px;
+        color: #665f60;
+        font-weight: 700;
+        font-family: $primary-font;
+    }
+
+    &__subtitle {
+        text-align: center;
+
+        font-size: 18px;
+        color: #665f60;
+        font-weight: 400;
+        font-style: italic;
+        font-family: $primary-font;
+    }
+}
+
+.top {
+    width: 100%;
+}
+.bottom {
+    width: 100%;
+}
+
+.sidebar-subtitle {
+    font-size: 18px;
+    color: #665f60;
+    font-weight: 400;
+    font-style: italic;
+    font-family: $primary-font;
+    text-align: center;
+    margin-top: -100px;
+}

@@ -1,0 +1,163 @@
+.map {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+
+
+    &__container {
+        width: 100%;
+        height: 900px;
+        position: relative;
+    }
+
+    &__icon {
+        width: 100%;
+        position: absolute;
+        margin-top: -880px;
+        height: 50px;
+        fill: white;
+    }
+
+    &__title {
+        width: 100%;
+        position: absolute;
+        margin-top: -800px;
+        text-align: center;
+
+        font-size: 36px;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: $secondary-font;
+    }
+
+    &__card {
+        width: 300px;
+        height: 60px;
+        display: flex;
+        background-color: whitesmoke;
+
+        font-size: 18px;
+        color: #665f60;
+        font-weight: 400;
+        font-family: $primary-font;
+        text-align: center;
+    }
+    &__card:hover {
+        margin-left: -79%;
+        // animation: 3s ease-in 1s infinite reverse both running slidein;
+    }
+
+    &__card--title {
+        width: 70px;
+        height: 40px;
+        padding: 10px;
+        background-color: $primary-color;
+    }
+
+    &__card--icon {
+        width: 100%;
+        height: 100%;
+        fill: white;
+    }
+}
+
+.card-conteiner {
+    position: absolute;    
+    margin-top: -800px;
+    margin-left: 95%;
+}
+
+.second-card {
+    width: 58px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.form { 
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+    display: flex;
+
+    &__input {
+        width: 90%;
+        margin-right: 10%;
+        height: 56px;
+        opacity: 0.5;
+        border-radius: 4px;
+        background-color: #ebebeb;
+    }
+    &__input::placeholder {
+        color: white;
+    }
+    &__input:focus {
+        outline: none;
+    }
+
+    &__textarea {
+        position: absolute;
+        width: 100%;
+        margin-top: 100px;
+
+        border-radius: 4px;
+        opacity: 0.5;
+        height: 200px;
+        border-radius: 4px;
+        background-color: #ebebeb;
+    }
+    &__textarea::placeholder {
+        color: white;
+    }
+    &__textarea:focus {
+        outline: none;
+    }
+
+    &__button {
+        width: 20%;
+        height: 70px;
+        margin-left: 40%;
+        margin-right: 40%;
+        position: absolute;
+        margin-top: 25%;
+
+        border-radius: 4px;
+        background-color: $primary-color;
+
+        font-size: 20px;
+        letter-spacing: 0px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: $secondary-font;
+    }
+
+}
+
+.second {
+    margin-left: 10%;
+}
+
+.form-section {
+    margin-top: -450px;
+}
+
+.up-btn {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: $primary-color;
+    opacity: 0.7;
+    margin-left: 85%;
+    margin-right: 5%;
+    margin-top: 25%;
+}
+
+.up-btn-icon {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    fill: white;
+}

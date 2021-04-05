@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 30%;
+
+    background-image: url(../img/heder-Slider.png);
+    background-size: cover;
+
+
+
+    &__title {
+        font-size: 72px;
+        line-height: 60px;
+        color: #fefefb;
+        font-weight: bold;
+        font-family: $secondary-font;
+    }
+
+    &__subtitle {
+        font-size: 30px;
+        color: #fefdfd;
+        font-weight: 400;
+        font-style: italic;
+        font-family: $primary-font;
+    }
+}
+
+.container {
+    background-color: $primary-color;
+}
